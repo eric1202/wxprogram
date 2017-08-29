@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+    <view class="widget_image">
+      <image src="../../resource/image/4.jpg" mode="aspectFit"></image> 
+    </view>
+  <view bindtap="ballot" class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <view class="draw-container">
+    <text class="draw-text">{{drawText}}</text>
+  </view>
+</view>

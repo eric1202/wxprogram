@@ -1,0 +1,16 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  background-color: #F8F8F8;
+  -webkit-text-fill-color: #324E7B;
+  box-sizing: border-box;
+} 
+
+.page{
+  background-color: #F8F8F8;
+}

@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#86A6DF",
+    "navigationBarTitleText": "欢迎朋友",
+    "navigationBarTextStyle":"white"
+  }
+}
